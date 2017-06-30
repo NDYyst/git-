@@ -16,7 +16,7 @@ http.createServer(function(req,res){
     //            console.log(err)
     //        }else{
     //            //设置响应头 发送数据
-    //            res.writeHead(200,{"content":"text/html;charset=utf8"});
+    //            res.writeHead(200,{"content-type":"text/html;charset=utf8"});
     //            res.write(data);
     //            res.end("")
     //        }
@@ -29,7 +29,7 @@ http.createServer(function(req,res){
     //            console.log(err)
     //        }else{
     //            //设置响应头 发送数据
-    //            res.writeHead(200,{"content":"text/css;charset=utf8"});
+    //            res.writeHead(200,{"content-type":"text/css;charset=utf8"});
     //            res.write(data);
     //            res.end("")
     //        }
@@ -42,7 +42,7 @@ http.createServer(function(req,res){
     //            console.log(err)
     //        }else{
     //            //设置响应头 发送数据
-    //            res.writeHead(200,{"content":"text/javascript;charset=utf8"});
+    //            res.writeHead(200,{"content-type":"text/javascript;charset=utf8"});
     //            res.write(data);
     //            res.end("")
     //        }
@@ -55,7 +55,7 @@ http.createServer(function(req,res){
     //            console.log(err)
     //        }else{
     //            //设置响应头 发送数据
-    //            res.writeHead(200,{"content":"image/jpeg"});
+    //            res.writeHead(200,{"content-type":"image/jpeg"});
     //            res.write(data);
     //            res.end("")
     //        }
@@ -70,7 +70,7 @@ http.createServer(function(req,res){
                     console.log(err)
                 }else{
                     //设置响应头 发送数据
-                    res.writeHead(200,{"content":"text/html;charset=utf8"});
+                    res.writeHead(200,{"content-type":"text/html;charset=utf8"});
                     res.write(data);
                     res.end("")
                 }
@@ -83,7 +83,7 @@ http.createServer(function(req,res){
                     console.log(err)
                 }else{
                     //设置响应头 发送数据
-                    res.writeHead(200,{"content":"text/css;charset=utf8"});
+                    res.writeHead(200,{"content-type":"text/css;charset=utf8"});
                     res.write(data);
                     res.end("")
                 }
@@ -96,7 +96,7 @@ http.createServer(function(req,res){
                     console.log(err)
                 }else{
                     //设置响应头 发送数据
-                    res.writeHead(200,{"content":"text/javascript;charset=utf8"});
+                    res.writeHead(200,{"content-type":"text/javascript;charset=utf8"});
                     res.write(data);
                     res.end("")
                 }
@@ -109,7 +109,7 @@ http.createServer(function(req,res){
                     console.log(err)
                 }else{
                     //设置响应头 发送数据
-                    res.writeHead(200,{"content":"image/jpeg"});
+                    res.writeHead(200,{"content-type":"image/jpeg"});
                     res.write(data);
                     res.end("")
                 }
@@ -122,7 +122,7 @@ http.createServer(function(req,res){
                     console.log(err)
                 }else{
                     //设置响应头 发送数据
-                    res.writeHead(200,{"content":"text/html;charset=utf8"});
+                    res.writeHead(200,{"content-type":"text/html;charset=utf8"});
                     res.write(data);
                     res.end("")
                 }
@@ -135,7 +135,7 @@ http.createServer(function(req,res){
                     console.log(err)
                 }else{
                     //设置响应头 发送数据
-                    res.writeHead(200,{"content":"text/html;charset=utf8"});
+                    res.writeHead(200,{"content-type":"text/html;charset=utf8"});
                     res.write(data);
                     res.end("")
                 }
