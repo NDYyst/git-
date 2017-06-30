@@ -1,0 +1,13 @@
+git init                          初始化仓库
+
+git config --plobal user.name ""    添加门户
+ 
+git config --plobal user.email ""    添加门户邮箱
+
+git add 文件名称             放置暂存区
+
+gie commit -m "文件描述"     放置版本库
+
+git status                    查看状态
+
+git diff                     查看修改的内容
